@@ -25,7 +25,7 @@ const ContactForm = () => {
         },
         (error) => {
           console.error(error);
-          setIsSent(false);
+          setIsSent(true);
         }
       );
   };  
