@@ -12,10 +12,10 @@ const ContactForm = () => {
     e.preventDefault();
 
     emailjs.sendForm(
-      "whoisakshat",
-      "template1",
+      "service_83xwzpa",
+      "template_im3xsht",
       e.target,
-      "JjC_Nnt4rUsjIsRtz"
+      "laFZe1iLc6qCBhy5y"
     )
       .then(
         (result) => {
@@ -57,7 +57,7 @@ const ContactForm = () => {
           target="_blank"
           onSubmit={sendEmail}
           style={{ fontFamily: "Poppins, sans-serif" }}
-          className="w-[80%] h-full flex flex-col gap-4 pt-4 text-grayscale-200" netlify
+          className="w-[80%] h-full flex flex-col gap-4 pt-4 text-grayscale-200"
         >
           <div className="w-full flex flex-col">
             <label htmlFor="firstname">First Name</label>
