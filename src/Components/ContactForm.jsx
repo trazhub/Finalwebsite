@@ -88,7 +88,7 @@ const ContactForm = () => {
               placeholder="Enter your E-mail"
               id="email"
               type="email"
-              name="from_email"
+              name="user_email"
               required
             />
           </div>
