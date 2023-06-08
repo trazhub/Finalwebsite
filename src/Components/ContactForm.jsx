@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import emailjs from "@emailjs/browser";
 
 const ContactForm = () => {
-  const [isSent, setIsSent] = useState(false);
+  const [isSent, setIsSent] = useState(true);
   const form = useRef();
   
   const sendEmail = (e) => {
